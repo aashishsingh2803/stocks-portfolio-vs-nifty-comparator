@@ -13,7 +13,7 @@ def merge_multiple_csv(path):
 
   Args:
       path (string): contains path of all the files using wildcard
-      eg. "users/aashish/zerodha/*.csv"
+      eg. "users/chetan/zerodha/*.csv"
   """
   csv_files = glob.glob(path)
   # Initialize an empty DataFrame to store the merged data
@@ -28,4 +28,5 @@ def merge_multiple_csv(path):
   
   merged_data.to_csv(f'{parent_folder}/all_trades/trades.csv', index=False)
 
-merge_multiple_csv("users/aashish/zerodha/*.csv")
+user = 'sample_user'
+merge_multiple_csv(f"users/{user}/zerodha/*.csv")
