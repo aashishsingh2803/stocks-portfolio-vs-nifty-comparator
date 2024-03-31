@@ -1,0 +1,2 @@
+symbol,isin,trade_date,exchange,segment,series,trade_type,auction,quantity,price,trade_id,order_id,order_execution_time
+TCS,INE111Q11111,2021-03-17,NSE,EQ,EQ,buy,False,1.0,3059.0,11111111,1100000000000000,2021-03-17T11:12:59
