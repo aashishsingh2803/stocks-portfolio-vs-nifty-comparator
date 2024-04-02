@@ -71,7 +71,7 @@ def get_zerodha_data(user):
 
   
   
-get_zerodha_data('aashish')
+get_zerodha_data('sample_user')
     
   
   
